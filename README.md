@@ -45,6 +45,16 @@ Force    Scan    Anomaly
      SOC Dashboard
 ```
 
+## Results
+
+The pipeline successfully generated 22 synthetic security events and produced 4 security alerts:
+
+- 1 High-severity SSH brute-force alert
+- 1 Medium-severity port-scan alert
+- 2 Medium-severity repeated authentication-failure alerts
+
+The project was validated using automated unit tests for log parsing and brute-force detection.
+
 ## Technology Stack
 
 - Python
