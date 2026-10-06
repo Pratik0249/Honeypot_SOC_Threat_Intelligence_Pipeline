@@ -1,0 +1,26 @@
+[
+  {
+    "alert_type": "SSH Brute Force",
+    "severity": "High",
+    "src_ip": "192.0.2.10",
+    "evidence": "7 failed SSH authentication attempts"
+  },
+  {
+    "alert_type": "Port Scan",
+    "severity": "Medium",
+    "src_ip": "198.51.100.23",
+    "evidence": "10 distinct destination ports contacted"
+  },
+  {
+    "alert_type": "Repeated Authentication Failures",
+    "severity": "Medium",
+    "src_ip": "192.0.2.10",
+    "evidence": "At least 3 failed authentication events within 2 minutes"
+  },
+  {
+    "alert_type": "Repeated Authentication Failures",
+    "severity": "Medium",
+    "src_ip": "203.0.113.5",
+    "evidence": "At least 3 failed authentication events within 2 minutes"
+  }
+]
